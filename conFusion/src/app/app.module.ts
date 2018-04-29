@@ -4,6 +4,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import {MatListModule} from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -23,7 +25,9 @@ import { MenuComponent } from './menu/menu.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
