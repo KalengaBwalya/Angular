@@ -11,6 +11,7 @@ import {MatCardModule} from '@angular/material/card';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 
 
@@ -18,6 +19,7 @@ import { MenuComponent } from './menu/menu.component';
   declarations: [
     AppComponent,
     MenuComponent,
+    DishdetailComponent,
 
   ],
   imports: [
